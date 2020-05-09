@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-04T10:16:11 IST" name="Suite" finished-at="2020-05-04T10:16:58 IST" duration-ms="46605">
+    <groups>
+    </groups>
+    <test started-at="2020-05-04T10:16:11 IST" name="Test" finished-at="2020-05-04T10:16:28 IST" duration-ms="17501">
+      <class name="testcase.ProjectOfPunchin">
+        <test-method signature="testcase1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.ProjectOfPunchin@12b0404f]" started-at="2020-05-04T10:16:11 IST" name="testcase1" finished-at="2020-05-04T10:16:28 IST" duration-ms="17424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[logintest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcase.ProjectOfPunchin@12b0404f]" started-at="2020-05-04T10:16:28 IST" name="afterTest" finished-at="2020-05-04T10:16:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcase.ProjectOfPunchin -->
+    </test> <!-- Test -->
+    <test started-at="2020-05-04T10:16:29 IST" name="Test1" finished-at="2020-05-04T10:16:58 IST" duration-ms="29032">
+      <class name="testcase.ProjectOfPunchin">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcase.ProjectOfPunchin@4ddced80]" started-at="2020-05-04T10:16:09 IST" name="beforeSuite" finished-at="2020-05-04T10:16:11 IST" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testcase1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.ProjectOfPunchin@4ddced80]" started-at="2020-05-04T10:16:29 IST" name="testcase1" finished-at="2020-05-04T10:16:58 IST" duration-ms="29004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[logintest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcase.ProjectOfPunchin@4ddced80]" started-at="2020-05-04T10:16:58 IST" name="afterTest" finished-at="2020-05-04T10:16:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcase.ProjectOfPunchin -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

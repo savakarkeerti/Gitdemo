@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="instance#" value="1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="logintest"/>
+    <classes>
+      <class name="testcase.ProjectOfPunchin">
+        <methods>
+          <include name="testcase1" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcase.ProjectOfPunchin -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
